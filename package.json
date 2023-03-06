@@ -1,0 +1,24 @@
+{
+  "name": "flutter-inappupgrade-server",
+  "version": "1.0.0",
+  "description": "The Flutter-InAppUpgrade plugin example server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "nodemon --watch 'src/' -e ts --exec 'ts-node' ./src/app.ts"
+  },
+  "author": "0x7c01",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-fileupload": "^1.4.1",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1"
+  }
+}
